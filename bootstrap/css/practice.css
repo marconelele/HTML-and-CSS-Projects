@@ -1,0 +1,89 @@
+.navbar {
+    overflow: hidden;
+    background-color: #bbb3ff;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: left;
+    color: #fff;
+    padding: 14px 16px;
+
+}
+
+img {
+    border: 1px solid #ddd;
+}
+
+img:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
+    cursor: pointer;
+}
+
+
+.navbar a:hover {
+    cursor: pointer;
+    background: #ddd;
+    color: black;
+}
+
+.background {
+    border-radius: 5px;
+    border: 2px;
+    filter: drop-shadow(2px 2px 5px red);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.myfooter {
+    text-align: center;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+.table1 {
+    border: 3px;
+    border-radius: 5px;
+    border-style: dashed;
+    width: 15%;
+    padding: 20px 20px 20px 20px;
+}
+
+.toprow {
+    background-color: #bbb3ff;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
